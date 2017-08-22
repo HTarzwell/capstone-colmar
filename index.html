@@ -3,8 +3,8 @@
 <head>
   <title>Colmar Academy</title>
   <meta charset="UTF-8">
-  
   <link rel="stylesheet" href="./resources/css/reset.css">
+  <link rel="stylesheet" href="./resources/css/style.css">
 </head>
 <body>
   <div class="fullbody">
@@ -16,7 +16,7 @@
 		    <img alt="colmar logo" src="resources/images/images/ic-logo.svg" />
 		  </div>
 		  <div class="title desktop">
-		    <h1>COLMAR ACADEMY</h1>
+		    <h1><span class="colmar">COLMAR</span> ACADEMY</h1>
           </div>
         </div>
 		<div class="navigation">
@@ -32,25 +32,23 @@
         </div>
       </div>
     </header>
-  
   <!-- Banner Section -->
     <div class="banner-main">
       <div class="banner-image">
 	    <img alt="main banner image" src="resources/images/images/banner.jpg" />
 	  </div>
 	  <div class="banner-content">
-	    <div class="banner-title">
-	      <h2>Learn something new everyday</h2>
-        </div>
-		<div class="banner-para">
+	    <div class="content-box">
+		  <h2>Learn something new everyday</h2>
+		</div>
+		<div class="content-box">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		</div>
-        <div class="banner-button">
-          Start here
-        </div>
+		<div class="content-box">
+          <button type="button">Start here</button>
+		</div>
       </div>
     </div>
-  
   <!-- Info Section -->
     <div class="info-main">
 	  <div class="info-hero desktop">
@@ -107,39 +105,51 @@
 	  <div class="course-boxes">
 	    <div class="course-box-info engineering">
 		  <img alt="software engineering" src="resources/images/images/course-software.jpg" />
-		  <h4>Software engineering</h4>
-		  <h5>COURSES</h5>
-		  <p>Web Development, Mobile Development, iOT, APIs</p>
+		  <div class="course-content">
+		    <h4>Software engineering</h4>
+		    <h5>COURSES</h5>
+		    <p>Web Development, Mobile Development, iOT, APIs</p>
+		  </div>
         </div>
 		<div class="course-box-info comp-art">
 		  <img alt="computer art" src="resources/images/images/course-computer-art.jpg" />
-		  <h4>Computer art</h4>
-		  <h5>COURSES</h5>
-		  <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+		  <div class="course-content">
+		    <h4>Computer art</h4>
+		    <h5>COURSES</h5>
+		    <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+		  </div>
 		</div>
 		<div class="course-box-info design">
 		  <img alt="design" src="resources/images/images/course-design.jpg" />
-		  <h4>Design</h4>
-		  <h5>COURSES</h5>
-		  <p>User Experience Design, User Research, Visual Design</p>
+		  <div class="course-content">
+		    <h4>Design</h4>
+		    <h5>COURSES</h5>
+		    <p>User Experience Design, User Research, Visual Design</p>
+		  </div>
 		</div>
 		<div class="course-box-info data">
 		  <img alt="data" src="resources/images/images/course-data.jpg" />
-		  <h4>Data</h4>
-		  <h5>COURSES</h5>
-		  <p>Data Science, Big Data, SQL, Data Visualization</p>
+		  <div class="course-content">
+		    <h4>Data</h4>
+		    <h5>COURSES</h5>
+		    <p>Data Science, Big Data, SQL, Data Visualization</p>
+		  </div>
 		</div>
 		<div class="course-box-info business">
 		  <img alt="business" src="resources/images/images/course-business.jpg" />
-		  <h4>Business</h4>
-		  <h5>COURSES</h5>
-		  <p>Product Development, Business Development, Startup</p>
+		  <div class="course-content">
+		    <h4>Business</h4>
+		    <h5>COURSES</h5>
+		    <p>Product Development, Business Development, Startup</p>
+		  </div>
 		</div>
 		<div class="course-box-info marketing">
 		  <img alt="marketing" src="resources/images/images/course-marketing.jpg" />
-		  <h4>Marketing</h4>
-		  <h5>COURSES</h5>
-		  <p>Analytics, Content Marketing, Mobile Marketing</p>
+		  <div class="course-content">
+		    <h4>Marketing</h4>
+		    <h5>COURSES</h5>
+		    <p>Analytics, Content Marketing, Mobile Marketing</p>
+		  </div>
 		</div>
       </div>
     </div>
@@ -151,6 +161,9 @@
 	  <div class="thesis-body">
 	    <div class="urban-body">
 		  <div class="urban-body-video">
+		    <video src="resources/video/videos/thesis.mp4" type="video/mp4" controls>
+			  Your browser does not support the video tag.
+			</video>
 		  </div>
 		  <div class="urban-body-content">
 		    <h4>Reimagine urban</h4>
