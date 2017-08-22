@@ -78,15 +78,14 @@ header {
   width: 60%;
 }
 .banner-content {
+  width: 40%;
   padding-left: 1.5rem;
   color: DimGray;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .content-box {
-  border: 1px solid green;
   padding: 1rem;
   width: 90%;
 }
@@ -98,8 +97,12 @@ header {
   font-size: 2rem;
 }
 .banner-content button {
+  width: 100%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  color: white;
+  background-color: DarkGray;
+  font-size: 1.25rem;
 }
 /** Info Styles **/
 .info-main {
@@ -201,20 +204,170 @@ header {
   line-height: 1.4;
 }
 /** Thesis Styles **/
-
+.thesis-main {
+  background-color: #f5f5f5;
+}
+.thesis-header {
+  width: 100%;
+  padding-top: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+.thesis-body {
+  padding: 2rem 1.5rem;
+  display: flex;
+}
+.urban-body {
+  width: 60%;
+  padding-right: 1.5rem;
+}
+.urban-body-video {
+  width: 100%;
+}
+.urban-body-video video {
+  width: 100%;
+  height: auto;
+}
+.urban-body-content h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: DarkSlateGray;
+  padding: 0.75rem 0;
+}
+.urban-body-content p {
+  font-size: 1.25rem;
+  padding: 0.75rem 0;
+}
+.thesis-column {
+  width: 40%;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+}
+.thesis {
+  display: flex;
+  padding: 1rem;
+}
+.thesis h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+.thesis p {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+}
+.fisma-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: Gainsboro;
+}
+.now-and-then-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /** Footer Styles **/
-
+footer {
+  background-color: #f5f5f5;
+}
+.copyright {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid silver;
+}
 /** Mobile Styles **/
 @media only screen and (max-width: 480px) {
+  .desktop {
+	display: none;
+  }
+  .mobile {
+	display: initial;
+  }
   /** Header Styles **/
-
+.headerbar {
+  justify-content: space-around;
+  align-items: center;
+}
   /** Banner Styles **/
-
+.banner-main {
+  flex-direction: column;
+}
+.banner-image {
+  width: 100%;
+}
+.banner-image img {
+  width: 100%;
+}
+.banner-content {
+  width: 100%;
+  padding: 0;
+}
+.banner-content h2 {
+  font-size: 2rem;
+  padding: 0;
+}
+.banner-content p {
+  font-size: 1.5rem;
+  padding: 0;
+}
   /** Info Styles **/
-
+.info-main {
+  flex-direction: column;
+}
+.info-column {
+  width: 100%;
+}
+.info-box {
+  flex-direction: column;
+}
+.info-box-content {
+  width: 100%;
+}
+.info-box-image img {
+  width: 100%;
+}
+.info-box-content span {
+  padding-top: 1rem;
+}
+.guest {
+  background-color: #f5f5f5;
+}
   /** Course Selection Styles **/
-
+.courses {
+  background-color: white;
+  width: 100%;
+}
+.courses-header {
+  font-size: 2rem;
+}
+.course-boxes {
+  flex-direction: column;
+  justify-content: center;
+}
+.course-box-info {
+  background-color: Gainsboro;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.course-content {
+  padding: 1rem;
+}
+.course-content h4 {
+  font-size: 1.25rem;
+  text-align: center;
+}
   /** Thesis Styles **/
-
+.thesis-header {
+  font-size: 2rem;
+}
+.urban-body {
+  width: 100%;
+}
   /** Footer Styles **/
+.copyright {
+  font-size: 0.75rem;
+}
 }
